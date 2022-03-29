@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
         result = self.app.get('/') 
 
         # verifica o retorno do conteudo da pagina
-        self.assertRegex(result.data.decode(), "Pipeline DevOps - MCursos Lap")
+        self.assertRegex(result.data.decode(), "Pipeline DevOps - MCursos Lap.")
 
 
 if __name__ == "__main__":
